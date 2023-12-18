@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(92, 139, 160);
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+    padding-left: 1100px;
+}
+.logo {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right: 79%;
+    top: 2%;
+  }
+  #logo{
+      position: absolute;
+    width: 70px;
+    height: 70px;
+   left: 1%;
+   top: 1%;
+  }
+
+nav {
+    display: flex;
+    background-color:rgb(234, 234, 234);
+    color: black;
+    padding: 0.5em;
+    gap: 150px;
+    padding-left: 550px;
+
+}
+
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(92, 139, 160);
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
